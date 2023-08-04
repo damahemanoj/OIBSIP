@@ -1,0 +1,96 @@
+@media screen and (max-width: 479px) {
+  li {
+    padding-top: 8px;
+    color: maroon;
+    font-size: 18px;
+  }
+
+  .flag {
+    width: 80px;
+    height: 35px;
+    filter: contrast();
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 8px;
+  }
+  #Home {
+    width: 80%;
+    height: 400px;
+    background-image: url(https://lh3.googleusercontent.com/drive-viewer/AITFw-yWtOSs8cCRw_iP6akbSyKsF7PB3DLX0oYNNCh0k2SkAOD51FFQbNl84NVIDi4uybcZVah1eTw0cnZc3k5_Sb4bvnGtYw=s1600);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 10%;
+  }
+  #intro-right {
+    width: 100%;
+    height: 550px;
+  }
+  .head-2 {
+    color: darkslategray;
+    font-family: "Indie Flower", cursive;
+    font-size: 19px;
+    text-align: center;
+    width: 100%;
+    margin-left: 4%;
+  }
+  p {
+    font-family: "Indie Flower", cursive;
+    font-size: 12px;
+    color: darkslategray;
+    text-align: justify;
+    padding: 6px;
+    word-spacing: 2px;
+    overflow: visible;
+    margin-left: 8%;
+  }
+  .vid-1 {
+    margin-bottom: 10px;
+    width: 80%;
+    height: 300px;
+    justify-items: center;
+    margin-left: 10%;
+  }
+  video {
+    width: 80%;
+    height: 300px;
+    margin-top: -140px;
+    border-radius: 10px;
+    justify-items: center;
+    background-size: cover;
+    box-shadow: 0px 5px 20px 10px #ff7722;
+  }
+  .container {
+    width: 80%;
+    height: 5200px;
+    margin-top: -100px;
+    flex-direction: column;
+  }
+
+  .phase-1 {
+    width: 100%;
+  }
+  #bio-head {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 70%;
+  }
+  .birth {
+    width: 100%;
+    height: 200px;
+  }
+
+  .cont-para-1 {
+    width: 100%;
+    height: 500px;
+    word-spacing: 2px;
+    margin-right: 5px;
+    overflow: visible;
+  }
+}
+
+/*Due to submission deadline and insufficient time I am unable to apply media queries, 
+Currently I am working on that which will be completed in few days*/

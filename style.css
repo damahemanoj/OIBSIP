@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: rgb(248, 226, 193);
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  background-color: #efb79470;
+}
+li {
+  padding-top: 13px;
+  color: maroon;
+  font-size: 24px;
+}
+
+.flag {
+  width: 100px;
+  height: 45px;
+  filter: contrast();
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 8px;
+  font-family: "Rozha One", serif;
+  background-image: url(https://31.media.tumblr.com/a1d849c10bb198ae25ee464ed7efacc5/tumblr_mlo4hjFKYa1r1bml0o1_500.gif);
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  color: #f5640979;
+}
+h2 {
+  font-family: "Rozha One", serif;
+  text-align: center;
+  color: #d2580cfc;
+  font-size: 30px;
+}
+
+#Home {
+  width: 35%;
+  height: 550px;
+  float: left;
+  background-image: url(https://lh3.googleusercontent.com/drive-viewer/AITFw-yWtOSs8cCRw_iP6akbSyKsF7PB3DLX0oYNNCh0k2SkAOD51FFQbNl84NVIDi4uybcZVah1eTw0cnZc3k5_Sb4bvnGtYw=s1600);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  transform: translateX(0%);
+  margin-left: 5%;
+  animation: slide 5s; 
+}
+@keyframes slide {
+  0% {
+    width: 35%;
+    height: 550px;
+    float: left;
+    background-image: url(https://lh3.googleusercontent.com/drive-viewer/AITFw-yWtOSs8cCRw_iP6akbSyKsF7PB3DLX0oYNNCh0k2SkAOD51FFQbNl84NVIDi4uybcZVah1eTw0cnZc3k5_Sb4bvnGtYw=s1600);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    transform: translateX(-100%);
+    transition: ease-out;
+  }
+}
+
+.head-2 {
+  color: darkslategray;
+
+  font-family: "Indie Flower", cursive;
+  font-size: 35px;
+   text-align: center;
+  margin-right: 8%;
+  animation: slide-1 12s;
+}
+
+@keyframes slide-1 {
+  0% {
+    color: darkslategray;
+    font-family: "Indie Flower", cursive;
+    font-size: 35px;
+    text-align: center;
+    margin-right: -200%;
+  }
+}
+
+#intro-right {
+  width: 50%;
+  height: 550px;
+  float: right;
+  margin-right: 4%;
+}
+p {
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+  color: darkslategray;
+  text-align: justify;
+  padding: 12px;
+  word-spacing: 4px;
+}
+
+.vid-1 {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+video {
+  margin-top: -100px;
+  border-radius: 10px;
+  transform: rotate(270deg);
+  box-shadow: 0px 5px 20px 10px #ff7722;
+}
+
+.container {
+  width: 80%;
+  height: 2600px;
+  background-color: rgb(232, 203, 160);
+  margin: auto;
+  display: grid;
+  overflow: hidden;
+}
+.phase-1 {
+  width: 1200px;
+  height: 200px;
+  margin-top: 20px;
+}
+#bio-head {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 8px;
+  font-family: "Rozha One", serif;
+  background-image: url(https://31.media.tumblr.com/a1d849c10bb198ae25ee464ed7efacc5/tumblr_mlo4hjFKYa1r1bml0o1_500.gif);
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  color: #f5640979;
+}
+.birth {
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  float: left;
+  margin-left: 20px;
+}
+
+.img-1 {
+  width: 390px;
+  height: 200px;
+  border-radius: 10px;
+}
+.cont-para-1 {
+  width: 765px;
+  height: 200px;
+  float: right;
+  word-spacing: 2px;
+  margin-right: 5px;
+}
+
+.oath,
+.afjal,
+.panhala {
+  float: right;
+  width: 390px;
+  height: 200px;
+  margin-right: 15px;
+}
+.oath-para,
+.afjal-dead,
+.panhala-info {
+  float: left;
+  width: 765px;
+  height: 200px;
+
+  margin-left: 15px;
+}
+
+.lessons {
+  width: 100%;
+  height: 500px;
+}
+
+.les-img {
+  padding: 30px;
+  float: left;
+  width: 40%;
+  height: 600px;
+}
+
+.learn {
+  float: right;
+  width: 60%;
+  height: 600px;
+  color: darkslategray;
+  padding: 15px;
+  padding-top: 40px;
+  padding-right: 70px;
+}
+.les-head {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  color: #943c05ad;
+  text-align: center;
+}
+
+.points {
+  font-family: "Indie Flower", cursive;
+  display: contents;
+  text-align: justify;
+  background-color: rgb(248, 226, 193);
+  list-style: disc;
+  font-size: 18px;
+}
+
